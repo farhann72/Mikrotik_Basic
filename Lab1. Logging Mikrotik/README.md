@@ -12,18 +12,23 @@
    <img width="117" height="114" alt="image" src="https://github.com/user-attachments/assets/27a2878b-92e2-4e8a-b542-a43eda14b4b8" />
 
   Aplikasi paling sering digunakan dengan **port 8291 TCP** 
+  
   a. Unduh aplikasi winbox https://mikrotik.com/download/winbox atau di file yang saya upload
+  
   b.	Install lalu klik bagian neighbors, lalu refresh
+  
   c.	Setelah muncul , saya sarankan pilih Mac address, MAc address = 08:00:27:3A:83:01
   <img width="670" height="565" alt="Screenshot 2026-06-25 194921" src="https://github.com/user-attachments/assets/3b748594-e071-4fdb-aa86-f9e9c15ac9b2" />
 
   d.	Login: admin
+  
      Password: (kosong)
   e.	Klik Connect
- 
+  
   <img width="1366" height="768" alt="Screenshot 2026-06-25 195131" src="https://github.com/user-attachments/assets/5ec66e56-ba79-4c0d-8530-e4fae9b8975b" />
-
+  
  Ini adalah tampilan dari winbox
+ 
  Mudah bukan?
  
 
