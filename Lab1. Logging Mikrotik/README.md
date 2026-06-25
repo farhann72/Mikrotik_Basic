@@ -21,7 +21,7 @@
   b.	Install lalu klik bagian neighbors, lalu refresh
   
   c.	Setelah muncul , saya sarankan pilih Mac address, MAc address = 08:00:27:3A:83:01
-  <img width="500" height="600" alt="Screenshot 2026-06-25 194921" src="https://github.com/user-attachments/assets/3b748594-e071-4fdb-aa86-f9e9c15ac9b2" />
+  <img width="500" height="500" alt="Screenshot 2026-06-25 194921" src="https://github.com/user-attachments/assets/3b748594-e071-4fdb-aa86-f9e9c15ac9b2" />
 
   d.	Login: admin
   password: (kosong)
@@ -47,7 +47,7 @@ webfig berada di **port 80 TCP** dan bisa di akses menggunakan browser, saya con
 
 NOTE: Pastikan mikrotik berada di default configuration
 
-<br>
+<hr>
 
    a.	Buka chrome
    
