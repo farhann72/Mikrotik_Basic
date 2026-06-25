@@ -24,8 +24,8 @@
   <img width="670" height="565" alt="Screenshot 2026-06-25 194921" src="https://github.com/user-attachments/assets/3b748594-e071-4fdb-aa86-f9e9c15ac9b2" />
 
   d.	Login: admin
+  password: (kosong)
   
-     Password: (kosong)
   e.	Klik Connect
   
   <img width="1366" height="768" alt="Screenshot 2026-06-25 195131" src="https://github.com/user-attachments/assets/5ec66e56-ba79-4c0d-8530-e4fae9b8975b" />
@@ -48,8 +48,6 @@ webfig berada di **port 80 TCP** dan bisa di akses menggunakan browser, saya con
 NOTE: Pastikan mikrotik berada di default configuration
 
 <br>
-<br>
-
 
    a.	Buka chrome
    
@@ -60,8 +58,7 @@ NOTE: Pastikan mikrotik berada di default configuration
    
    c.	Login: admin
    
-      Password: (kosong)
-
+   pasword: (kosong)
 
    d.	Klik Login atau Tekan Enter
  
@@ -85,15 +82,14 @@ Mudah Bukan?
 
    Ini berada di *port*
   	
-   *Telnet (23 TCP)*
+   *-Telnet (23 TCP)*
    
    protokol lama yang sudah lama, jarangan digunakan karena alasan keamanannya yang kurang
    
-   *SSH (22 TCP)*
+   *-SSH (22 TCP)*
    
    Yang paling di sarankan karna keamanannya lebih aman dibandingkan telnet
 
-<br>
 <br>
 
    a.	Buka putty
@@ -102,13 +98,16 @@ Mudah Bukan?
 
  
 b.	Klik Tab Telnet 
+
 c.	Ketik IP Address: 192.168.88.1 (ip default mikrotik)
+
 d.	Ketik Port: 23 (port default telnet)
+
 e.	Klik Open atau Tekan Enter
- 
 
 f.	Login: admin
-Password:
+Password: (kosong)
+
 Tekan Enter
  
 
