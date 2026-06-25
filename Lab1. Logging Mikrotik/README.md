@@ -37,9 +37,9 @@
  <br>
  <br>
  <br>
- 
 
 
+ <hr>
 2.	WebFig
    <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/2c78c6fb-8b8b-4614-9f19-85cde80b6a51" />
 
@@ -78,6 +78,8 @@ Mudah Bukan?
 <br>
 <br>
 
+
+<hr>
 3.	Telnet/SSH
 
    Ini berada di *port*
@@ -131,7 +133,7 @@ Mudah Bukan?
 
    
 
-5.	FTP (filezilla)
+4.	FTP (filezilla)
 Akses mikrotik via FTP (filezilla) bermanfaat untuk upload dan download file ke router mikrotik.
 a.	Buka filezilla
  
