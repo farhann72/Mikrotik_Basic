@@ -90,7 +90,7 @@ Mudah Bukan?
    
    Yang paling di sarankan karna keamanannya lebih aman dibandingkan telnet
 
-<br>
+<hr>
 
    a.	Download puty https://putty.org/index.html atau file yang saya upload
 
@@ -100,43 +100,36 @@ Mudah Bukan?
    
    c. Ketikan IP Address = 192.168.88.1 (ip default mikrotik)
 
-   d. pilih port 23 (telnet)
+   d. pilih port 23 (telnet) atau 22 (SSH), teman-teman tinggal memilih mau meremote lewat protokol mana
+   
+   c.	Ketik IP Address: 192.168.88.1 (ip default mikrotik)
+   
+   d.	Ketik Port: 23 (port default telnet)
 
- 
+   e. Pilih bagian conection type: other (telnet) atau ssh (SSH), di sini saya mencoba untuk protokol telnet
+   
+   f.	Klik Open atau Tekan Enter
 
+   <img width="457" height="449" alt="Screenshot 2026-06-26 061650" src="https://github.com/user-attachments/assets/b82cdb5e-fa5a-495a-9db3-35c8c7699cdc" />
+   
+   g.	Login: admin
+   
+   Password: (kosong)
+   
+   
+   Tekan Enter
+   
+   g.	Setelah berhasil login, maka akan muncul tampilan mikrotik dalam mode CLI
 
-c.	Ketik IP Address: 192.168.88.1 (ip default mikrotik)
+   <img width="658" height="415" alt="Screenshot 2026-06-26 061845" src="https://github.com/user-attachments/assets/dec022c4-b1f2-423c-903a-9cb9f4040287" />
 
-d.	Ketik Port: 23 (port default telnet)
+   NOTE: Lakukan pada mikrotik dalam kondisi default configuration, pastikan port dan type conectionnya **SESUAI**
 
-e.	Klik Open atau Tekan Enter
+   <br>
+   <br>
+   <br>
 
-f.	Login: admin
-Password: (kosong)
-
-Tekan Enter
- 
-
-g.	Setelah berhasil login, maka akan muncul tampilan mikrotik dalam mode CLI
- 
-
-
-4.	SSH
-Cara keempat menggunakan SSH pada  aplikasi putty, berikut ini langkah nya
-a.	Buka putty
- 
-b.	Klik Tab SSH 
-c.	Ketik IP Address: 192.168.88.1 (ip default mikrotik)
-d.	Ketik Port: 23 (port default telnet)
-e.	Klik Open atau Tekan Enter
- 
-
-f.	Login: admin
-Tekan Enter  
-
-g.	Setelah berhasil login, maka akan muncul tampilan mikrotik dalam mode CLI
- 
-
+   
 
 5.	FTP (filezilla)
 Akses mikrotik via FTP (filezilla) bermanfaat untuk upload dan download file ke router mikrotik.
