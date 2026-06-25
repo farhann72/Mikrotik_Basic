@@ -92,10 +92,15 @@ Mudah Bukan?
 
 <br>
 
-   a.	Buka putty
+   a.	Download puty https://putty.org/index.html atau file yang saya upload
+
+   b. Buka putty
+   
    <img width="95" height="116" alt="image" src="https://github.com/user-attachments/assets/9f6a27f5-cf48-4302-9b74-2f1e82eb063c" />
-   b.Tes
-   c.TEs
+   
+   c. Ketikan IP Address = 192.168.88.1 (ip default mikrotik)
+
+   d. pilih port 23 (telnet)
 
  
 
