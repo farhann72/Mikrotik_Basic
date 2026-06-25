@@ -47,6 +47,10 @@ webfig berada di **port 80 TCP** dan bisa di akses menggunakan browser, saya con
 
 NOTE: Pastikan mikrotik berada di default configuration
 
+<br>
+<br>
+
+
    a.	Buka chrome
    
    b.	Pada pencarian ketikan 192.168.88.1 (ip default mikrotik)
@@ -79,17 +83,21 @@ Mudah Bukan?
 
 3.	Telnet/SSH
 
-   Ini berada di **port**
+   Ini berada di *port*
   	
-   **Telnet (23 TCP)**
+   *Telnet (23 TCP)*
    
    protokol lama yang sudah lama, jarangan digunakan karena alasan keamanannya yang kurang
    
-   **SSH (22 TCP)**
+   *SSH (22 TCP)*
    
    Yang paling di sarankan karna keamanannya lebih aman dibandingkan telnet
 
+<br>
+<br>
+
    a.	Buka putty
+   
 <img width="95" height="116" alt="image" src="https://github.com/user-attachments/assets/9f6a27f5-cf48-4302-9b74-2f1e82eb063c" />
 
  
