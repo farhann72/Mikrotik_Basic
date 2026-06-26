@@ -1,4 +1,4 @@
-
+# LAB3. Blank Configuration
 
 <img width="817" height="422" alt="image" src="https://github.com/user-attachments/assets/453aa310-783a-43e8-8260-912a059be030" />
 
