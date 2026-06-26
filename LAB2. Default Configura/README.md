@@ -78,6 +78,30 @@ Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
 
    seperti yang saya katakan tadi "bridge" berisikan ether 2-5 dan wlan. Jadi mereka tu seperti di satu jalur yang sama.
 
+3. WAN (Wide Area Network)
+
+   MIkrotik default sudah membuat konfig WAN otomatis agar kita dapat langsung menggunakan. WAN terdiri dari apa saja sih?
+
+    -Port Khusus Internet
+
+      Coba kalian perhatikan kembali interface ether 1 berstatus R saja, berarti dia berdiri sendiri sebagai interface. default mikrotik membuat ether 1 di khususkan sebagai jalur masuknya internet (WAN)
+
+   -DHCP Client Otomatis
+
+      Interface ether 1 sudah di konfig otomatis sebagai DHCP Client, coba teman-teman cek di bagian ip >> ip DHCp Client. artinya jika teman-teman menyambungkan kabel dari ISP ke port 1, Mikrotik akan langsung meminta dan menerima IP Address, Gateway, serta DNS secara otomatis dari ISP
+
+   <img width="464" height="159" alt="dhcp client" src="https://github.com/user-attachments/assets/25c45174-07b9-45d0-9667-d87cb1ff561e" />
+
+   Perhatikan juka statusnya bertulisan bound, berarti mikrotik ether 1 sukses mendaptkan ip,gateway, dan DNS otomatis
+
+   -Firewall NAT
+
+   <img width="518" height="150" alt="firewall" src="https://github.com/user-attachments/assets/174595ec-2d96-4d78-b36c-dc52402d5b2e" />
+
+   Jalur WAN ini sudah terhubung dengan firewall NAT. Tugasnya adalah meneruskan internet dari ISP agar bisa dibagikan dan dinikmati oleh semua interface dari ether2-5 dan WLAN mikrotik teman-teman
+
+   
+
 
 
 
