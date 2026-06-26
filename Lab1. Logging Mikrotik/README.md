@@ -133,31 +133,47 @@ Mudah Bukan?
    <br>
    <br>
 
+
+   <hr>
    
+4.	FTP (File Transfer Protokol)
+   Sesuai namanya protokol ini delengkapi dengan fitur transfer file, dimana kita dapat uploud dan download file dari mikrotik ke laptop kita ataupun sebaliknya. Karna pada dasarnya kita tidak bisa drag and drop file yang mau kita pindahkan dari laptop ke mikrotik di mdoe CLI, maka dari itu kita membutuhkan FTP. Windows kita sebenarnya sudah bisa menggunakan protokol ini, maka dari itu kita aktifkan dulu fitur atau protokolnya pada windows kita. Protokol ini berjalan di **port 20,21 TCP**
 
-4.	FTP (filezilla)
-Akses mikrotik via FTP (filezilla) bermanfaat untuk upload dan download file ke router mikrotik.
-a.	Buka filezilla
- 
-b.	Isi Host: 192.168.88.1 (ip default mikrotik)
-c.	Login: admin
-d.	Password:
-e.	Ketik Port: 21 (port default ftp)
-f.	Klik Quickconnect
- 
+<hr>
 
-g.	Setelah berhasil login, maka akan muncul tampilan mikrotik dalam mode CLI
- 
+  a. Klik windows + R
+  
+  b. Ketikan optionalfeatures, lalu tekan enter
 
-6.	Console
-Akses mikrotik via console belum penulis lab kan, sambil menanti perangkat mikrotik yang ada port console nya.
+  <img width="402" height="209" alt="Screenshot 2026-06-26 070148" src="https://github.com/user-attachments/assets/a85dd62f-1d88-4983-aead-cb6258ce6f24" />
 
-7.	Tik App
-Akses mikrotik via console belum penulis lab kan, sambil menanti perangkat smartphone android, karena Tik App yang rilis 2015 baru support OS Android.
+  
+  c. Cari folder yang bernama TFTP Client, centang lalu klik OK
 
+  <img width="416" height="371" alt="Screenshot 2026-06-26 070237" src="https://github.com/user-attachments/assets/99734f22-ce0b-4aed-a143-805563a1b2e1" />
+  
+  d.	Buka CMD
 
-Buat  kesimpulan : 
+  <img width="65" height="84" alt="Screenshot 2026-06-26 071407" src="https://github.com/user-attachments/assets/84870238-d517-410b-b4c7-8275358e2a12" />
 
-Ada 7 cara koneksi / akses/ remote / logging in ke dalam mikrotik, dengan berbagai manfaat dan karakteristik yang berbeda,
-Hal ini sangat memudahkan admin untuk mengakses mikrotik, dengan pilihan yang bervariasi.
-Kita dapat memilih akses mikrotik sesuaikan dengan kebutuhan.
+  e. Ketikan ftp 192.168.88.1
+  
+  f. ketikan admin, klik enter
+  
+  g. password (kosong), klik enter
+
+  h. Tampilan FTP 
+
+  <img width="440" height="199" alt="Screenshot 2026-06-26 071746" src="https://github.com/user-attachments/assets/2bad7cec-4523-4a02-945f-ef217dc4e565" />
+
+<br>
+<br>
+<br>
+
+kesimpulan : 
+
+Itulah cara-cara meremote/akses/logging ke mikrotik, perhatikan portnya degan benar, pastikan juga mikrotik berada di default cofiguartion, bila teman-teman ada kendala lainnya pastikan kabel sudah terhubung dengan sempurna, sebelum meremote pastikan juga lampu indikator menyala pada port yang dicolokan ke mikrotik, kenapa?? karna itu adalah tanda mikrotik sukses teroneksi.
+
+Akhir Kata
+
+Assalamualaikum Wr.Wb
