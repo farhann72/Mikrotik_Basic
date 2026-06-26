@@ -176,4 +176,4 @@ Itulah cara-cara meremote/akses/logging ke mikrotik, perhatikan portnya degan be
 
 Akhir Kata
 
-Assalamualaikum Wr.Wb
+Wassalamualaikum Wr.Wb
