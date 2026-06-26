@@ -31,4 +31,26 @@ Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
 
 <h1> Cara membuat default configuartion mikrotik </h1>
 
+1. Kalian remote dulu menggunakan winbox
+
+2. Klik bagian system
+
+   <img width="304" height="720" alt="Screenshot 2026-06-26 093253" src="https://github.com/user-attachments/assets/add60cca-0475-4203-a71a-6fabb8039cbd" />
+
+3. Klik reset configuartion
+
+   <img width="371" height="721" alt="Screenshot 2026-06-26 093440" src="https://github.com/user-attachments/assets/c2d9ffd3-6006-4947-a0a0-56b82b60b795" />
+
+4. klik do not backup, karna kita hanya ingin membuat default configuration mikrotik, JANGAN CENTANG NO DEFAULT CONFIGURATION, lalu klik reset configuartion
+
+   <img width="452" height="223" alt="Screenshot 2026-06-26 093541" src="https://github.com/user-attachments/assets/399a5f7e-6ea4-4127-850c-5a93cce7c632" />
+
+5. JANGAN PANIK!!! Kalian akan keluar dari winbox secara otomatis, tunggu mikrotik beberapa saat, sampai kembali pada tampilan awal. Karna setiap mereset konfigurasi, mikrotik akan me-reboot secara otomatis.
+
+6. Setelah Mikrotik menyala kembali mikrotik dalam keadaan default configuration 
+
+
+   
+
+
 
