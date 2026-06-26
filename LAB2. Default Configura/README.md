@@ -92,13 +92,54 @@ Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
 
    <img width="464" height="159" alt="dhcp client" src="https://github.com/user-attachments/assets/25c45174-07b9-45d0-9667-d87cb1ff561e" />
 
-   Perhatikan juka statusnya bertulisan bound, berarti mikrotik ether 1 sukses mendaptkan ip,gateway, dan DNS otomatis
+   Perhatikan juga statusnya bertulisan bound, berarti mikrotik ether 1 sukses mendaptkan ip,gateway, dan DNS otomatis
 
    -Firewall NAT
 
    <img width="518" height="150" alt="firewall" src="https://github.com/user-attachments/assets/174595ec-2d96-4d78-b36c-dc52402d5b2e" />
 
    Jalur WAN ini sudah terhubung dengan firewall NAT. Tugasnya adalah meneruskan internet dari ISP agar bisa dibagikan dan dinikmati oleh semua interface dari ether2-5 dan WLAN mikrotik teman-teman
+
+   chain: srcnat
+
+   action: Masqurade
+
+   Ini adalah default mikrotik agar client yang nantinya terhubung ke router dapat menikmati internet
+
+   4. Ip Address
+
+      <img width="338" height="348" alt="ip address" src="https://github.com/user-attachments/assets/cda6290f-ff0a-4bfb-9f2a-e339ce2f4d24" />
+
+      Pada bagian ip >> address, terlihat 2 ip, yang 192.168.70.64 saya dapat dari DHCP Client, perhatikan juga flags di kiri terdapat tulisan D yang berarti dynamic, kurang lebih artinya saya mendapatkan ipnya secara otomatis.
+
+      pada default mikrotik ip 192.168.88.1 di letakan di interface bridge, jadi semua interface/port yang masuk di bridge memiliki ip 192.168.88.x
+
+   5. DHCP Server
+
+      <img width="278" height="398" alt="dhcp server" src="https://github.com/user-attachments/assets/a19d0ae8-5fd1-4677-a41b-bc8adce959c7" />
+
+      Coba teman-teman cek IP >> DHCP Server, di situ terdapat 1 dhcp server dengan nama defconf, dan di arahkan ke interface bridge, seperti yang pernah saya katakan bridge ini adalah kumpulan interface yang sudah di kumpulkan dalam 1 segmen
+
+   6. Wireless
+
+      <img width="402" height="368" alt="wirelless" src="https://github.com/user-attachments/assets/e7b05fcf-477a-476e-a835-b878f4b57f01" />
+
+      Default Mikrotik sudah mengatur
+
+      -Mode AP-Bridge: Artinya mikrotik otomais bertindak sebagai pemancar (access Point) yang bisa di tangkap oleh hp atau laptop
+
+      -SSID Bawaan: Nama WI-FI (SSID) default biasanya berformat Mikrotik-XXXXXX (X adalah kombinasi dari mac address perangkat)
+
+      -WI-FI tanpa password secara default mikrotik
+
+      -Band & Frekuensi di atur otomatis: agar mikrotik memilih saluran yang paling bersih secara otomatis, dengan standar band universal (seperti 2.4GHz b/g/n)
+
+      7. Firewall Rule
+
+
+
+
+      
 
    
 
