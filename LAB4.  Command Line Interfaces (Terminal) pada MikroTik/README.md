@@ -92,7 +92,7 @@ Tips:
   
         <img width="384" height="50" alt="Screenshot 2026-06-26 143445" src="https://github.com/user-attachments/assets/7162f4c8-42f8-4657-968a-37329dbce307" />
 
-   <h2> Cara Menambahkan paswword pada user admin </h2>
+   <h2> Cara Menambahkan Paswword Pada User Admin </h2>
 
      1. ketikan /password
   
@@ -123,6 +123,77 @@ Tips:
       2. Klik (enter)
   
          <img width="392" height="124" alt="Screenshot 2026-06-26 144912" src="https://github.com/user-attachments/assets/aeaed979-d295-452c-a860-508139624e34" />
+
+     <h2> Cara Menambahkan Firewall NAT</h2>
+
+     1. Ketikan /ip/firewall/nat/add chain=srcnat out-interface=ether1 action=masquerade
+  
+     2. klik (enter)
+  
+     3. Tanda kalau sukses tidak adanya tulisan invalid:
+  
+        <img width="580" height="67" alt="Screenshot 2026-06-26 150443" src="https://github.com/user-attachments/assets/62690132-ebcf-4fff-b9f4-622c3ecd141e" />
+
+     <h2> Cara Cek Firewall NAT</h2>
+
+     1. ketikan /ip/firewall/nat/print
+  
+     2. Klik (enter)
+  
+     3. Tanda kalau berhasil tidak adanya tuiisan invalid:
+
+        <img width="436" height="82" alt="Screenshot 2026-06-26 150627" src="https://github.com/user-attachments/assets/4354555e-564c-4ca3-b345-d1cc6c6a32d6" />
+
+
+     <h2> Cara Menambahkan IP Gateway </h2>
+
+     1. Ketikan /ip/route/add gateway=192.168.1.1
+  
+     2. Klik (enter)
+  
+     3. Tanda kalau berhasil tidak adanya tulisan invalid:
+  
+        <img width="372" height="48" alt="Screenshot 2026-06-26 151007" src="https://github.com/user-attachments/assets/36d99669-aad2-408c-a667-2f1033a5cf9d" />
+
+     <h2> Cara Cek Ip Gateway</h2>
+
+     1. Ketikan /ip/route/print
+  
+     2. klik (enter)
+  
+     3. Tanda kalau berhasil tidak adanya tulisan invalid:\
+  
+        <img width="507" height="128" alt="Screenshot 2026-06-26 151104" src="https://github.com/user-attachments/assets/d3f04206-44dc-44f0-8504-709f153b250e" />
+
+     <h2> Menambahkan DNS & Melihat DNS </h2>
+
+     1. ketikan /ip/dns/set servers= 8.8.8.8 allow-remote-requests=yes (untuk menambahkan DNS 8.8.8.8)
+  
+     2. Ketikan /ip/dns/print (untuk cek DNS)
+  
+        <img width="505" height="368" alt="Screenshot 2026-06-26 151849" src="https://github.com/user-attachments/assets/c7a4bbf2-b2c0-4626-aef4-ab67894095f8" />
+
+
+     <h2> Fungsi Doble [TAB] </h2>
+
+     <img width="549" height="290" alt="Screenshot 2026-06-26 152130" src="https://github.com/user-attachments/assets/fe5f5574-a3af-4a3f-a8a5-79e488c5590a" />
+
+     <hr>
+
+Kesimpulan: Mode CLI ini digunakan oleh para sepuh/advanced/expert untuk meremote mikrotik dengan berbasis teks, kenapa masih beruguna? karena menurut orang mode CLI cukup simple dan enak dilihat, karna bentuknya yang sederhana. Juga bisa meremote jarak jauh dengan ringan karna basicnya adalah teks.
+
+Tips: Pastikan teman-teman menggunakan [TAB] untuk membantu mengkoreksi tulisan dan mempermudah, double [TAB] untuk mengetahui comand selanjutnya atau ketika teman-teman lupa akan comamnd selanjutnya
+
+Akhir Kata
+
+Wassalamualaikum Wr.Wb
+
+
+
+        
+
+
+
 
      
 
