@@ -106,7 +106,7 @@ Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
 
    Ini adalah default mikrotik agar client yang nantinya terhubung ke router dapat menikmati internet
 
-   4. Ip Address
+4. Ip Address
 
       <img width="338" height="348" alt="ip address" src="https://github.com/user-attachments/assets/cda6290f-ff0a-4bfb-9f2a-e339ce2f4d24" />
 
@@ -114,13 +114,13 @@ Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
 
       pada default mikrotik ip 192.168.88.1 di letakan di interface bridge, jadi semua interface/port yang masuk di bridge memiliki ip 192.168.88.x
 
-   5. DHCP Server
+5. DHCP Server
 
       <img width="278" height="398" alt="dhcp server" src="https://github.com/user-attachments/assets/a19d0ae8-5fd1-4677-a41b-bc8adce959c7" />
 
       Coba teman-teman cek IP >> DHCP Server, di situ terdapat 1 dhcp server dengan nama defconf, dan di arahkan ke interface bridge, seperti yang pernah saya katakan bridge ini adalah kumpulan interface yang sudah di kumpulkan dalam 1 segmen
 
-   6. Wireless
+6. Wireless
 
       <img width="402" height="368" alt="wirelless" src="https://github.com/user-attachments/assets/e7b05fcf-477a-476e-a835-b878f4b57f01" />
 
