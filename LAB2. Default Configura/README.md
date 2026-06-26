@@ -134,7 +134,15 @@ Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
 
       -Band & Frekuensi di atur otomatis: agar mikrotik memilih saluran yang paling bersih secara otomatis, dengan standar band universal (seperti 2.4GHz b/g/n)
 
-      7. Firewall Rule
+7. Firewall Filter Rule
+
+   <img width="901" height="374" alt="firewall filter rule" src="https://github.com/user-attachments/assets/de7f2f44-c937-43cd-90af-13c7dfb391a9" />
+
+   Pada Default configuration di bagian Firewall >> Filter Rule, ether 1 dibuat khusus sebagai internet dan siapa saja yang mencoba meremote lewat ether 1 di buat drop atau tidak dapat meremotenya
+
+   <hr>
+
+   Kesimpulan: Default Configuration adalah cara paling mudah agar mikrotik dapat digunakan untuk client sampai client bisa menikmati internet.  
 
 
 
