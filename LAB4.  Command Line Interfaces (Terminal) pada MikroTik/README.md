@@ -50,7 +50,7 @@ Tips:
 
 5. Selamat masuk tampilan CLI
 
-   <h2> Cara menambahkan IP </h2>
+   <h2> Cara Menambahkan IP </h2>
 
    menambahkan ip: 192.168.10.1/24 di interface:ether 1
 
@@ -66,7 +66,7 @@ Tips:
       <img width="535" height="37" alt="Screenshot 2026-06-26 141534" src="https://github.com/user-attachments/assets/b5a67334-e05c-41cb-b9dc-077494c7f4b6" />
 
 
-    <h2> Cara cek IP Address</h2>
+    <h2> Cara Cek IP Address</h2>
 
     cek ip yang sudah kita tambahkan tadi
 
@@ -94,8 +94,35 @@ Tips:
 
    <h2> Cara Menambahkan paswword pada user admin </h2>
 
+     1. ketikan /password
   
-        
+     2. klik (enter)
+  
+        <img width="214" height="125" alt="Screenshot 2026-06-26 144127" src="https://github.com/user-attachments/assets/992b9ddf-ac2a-42b0-af29-042b9549db93" />
+
+     3. -Masukan password lama= (kosongkan)
+
+        -Masukan password baru= 123
+
+        -Masukan ulang password baru=123
+
+     4. Sekarang teman-teman login menggunakan admin & Password baru
+
+   <h2> Cara Menambahkan User Baru, Password & Group Full</h2>
+
+     1. Ketikan /user/add name=nama_teman-teman group=full password=nama_teman-teman123
+  
+     2. Klik (enter)
+  
+      <img width="497" height="44" alt="Screenshot 2026-06-26 144746" src="https://github.com/user-attachments/assets/0cc4d7bc-ed4b-4e82-97b3-985fa6a18b4a" />
+
+      <h2> Cara Cek User </h2>
+
+      1. Ketikan /user/print
+  
+      2. Klik (enter)
+  
+         <img width="392" height="124" alt="Screenshot 2026-06-26 144912" src="https://github.com/user-attachments/assets/aeaed979-d295-452c-a860-508139624e34" />
 
      
 
