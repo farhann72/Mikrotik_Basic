@@ -43,7 +43,7 @@
  
 2.	WebFig
 
-<img width="100" height="80" alt="image" src="https://github.com/user-attachments/assets/2c78c6fb-8b8b-4614-9f19-85cde80b6a51" />
+<img width="100" height="120" alt="image" src="https://github.com/user-attachments/assets/2c78c6fb-8b8b-4614-9f19-85cde80b6a51" />
 
 webfig berada di **port 80 TCP** dan bisa di akses menggunakan browser, saya contohkan dengan chrome
 
