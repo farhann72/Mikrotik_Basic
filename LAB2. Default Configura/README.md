@@ -13,6 +13,7 @@ kali ini saya akan menjelaskan Default Configuration pada mikrotik, pada dasarny
 sebelum itu cek device mikrotik masing-masing, apakah mikrotik dalam keadaan default configuration atau tidak. Cara mengetahuinya coba teman-teman koneksikan mikrotiknya sesuai topologi, dan login menggunakan
 
 user: admin
+
 password: (kosong)
 
 NOTE: tidak semua user dan passwordnya sama, mikrotik yang baru biasanya password defaultnya berbeda-beda,biasanya terletak di belakang dus box mikrotiknya. Tetapi mikrotik keluaran lama default passwordnya (kosong).
@@ -20,5 +21,14 @@ NOTE: tidak semua user dan passwordnya sama, mikrotik yang baru biasanya passwor
 <img width="667" height="483" alt="default config" src="https://github.com/user-attachments/assets/751ab479-e962-416d-bf33-62f2b2916cbe" />
 
 Tanda bahwa device kalian sudah default configuration.
+
+<br>
+<br>
+
+"Kang device saya gada tampilan seperti itu, tadi juga login ipnya 0.0.0.0, kalo ini kenapa?"
+
+Biasanya device seperti itu berada di blank configuartion (konfig kosongan)
+
+<h1> Cara membuat default configuartion mikrotik </h1>
 
 
