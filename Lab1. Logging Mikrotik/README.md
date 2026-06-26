@@ -28,7 +28,7 @@
   
   e.	Klik Connect
   
-  <img width="800" height="600" alt="Screenshot 2026-06-25 195131" src="https://github.com/user-attachments/assets/5ec66e56-ba79-4c0d-8530-e4fae9b8975b" />
+  <img width="800" height="500" alt="Screenshot 2026-06-25 195131" src="https://github.com/user-attachments/assets/5ec66e56-ba79-4c0d-8530-e4fae9b8975b" />
   
  Ini adalah tampilan dari winbox
  
@@ -43,7 +43,7 @@
  
 2.	WebFig
 
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/2c78c6fb-8b8b-4614-9f19-85cde80b6a51" />
+<img width="100" height="80" alt="image" src="https://github.com/user-attachments/assets/2c78c6fb-8b8b-4614-9f19-85cde80b6a51" />
 
 webfig berada di **port 80 TCP** dan bisa di akses menggunakan browser, saya contohkan dengan chrome
 
@@ -70,7 +70,7 @@ NOTE: Pastikan mikrotik berada di default configuration
 
    e.	Masuk pada tampilan GUI versi WebFig
 
-<img width="800" height="600" alt="WhatsApp Image 2026-06-25 at 20 26 21" src="https://github.com/user-attachments/assets/d97caa9a-2911-49b5-9d4f-20c89c1daf6c" />
+<img width="800" height="500" alt="WhatsApp Image 2026-06-25 at 20 26 21" src="https://github.com/user-attachments/assets/d97caa9a-2911-49b5-9d4f-20c89c1daf6c" />
 
 Mudah Bukan?
 
