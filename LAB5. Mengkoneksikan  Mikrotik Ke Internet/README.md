@@ -43,7 +43,7 @@ Kali ini saya akan membagikan materi "Cara Mengkoneksikan Mikrotik Ke Internet",
 
    -Klik Ip >> Address
 
-<img width="267" height="280" alt="Screenshot 2026-06-27 092415" src="https://github.com/user-attachments/assets/43a2991d-21ef-4409-a75a-ab55017e8421" />
+   <img width="267" height="280" alt="Screenshot 2026-06-27 092415" src="https://github.com/user-attachments/assets/43a2991d-21ef-4409-a75a-ab55017e8421" />
 
 
    -Klik tanda (+)
