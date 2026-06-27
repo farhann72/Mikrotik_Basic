@@ -154,13 +154,24 @@ Sebelum mencoba topologi di atas, saya harap teman-teman reset konfigurasi mikro
 
    <img width="457" height="248" alt="Screenshot 2026-06-27 110206" src="https://github.com/user-attachments/assets/71d2ca9a-4646-4f8d-8149-276338b45924" />
 
-5. Setting Kembali Ip Laptop kita di control panel
+5. Setting Firewall NAT
+
+   -Masuk ke Ip >> Firewall >> NAT, klik (+) chain:srcnat out-interfacenya:ether2
+
+   <img width="426" height="349" alt="Screenshot 2026-06-27 093145" src="https://github.com/user-attachments/assets/86da3c84-f69c-41c5-af59-ecd9750a64f8" />
+
+   -Masuk bagian action:masquerade lalu aplly, Ok
+
+   <img width="407" height="168" alt="Screenshot 2026-06-27 093229" src="https://github.com/user-attachments/assets/66b49562-bba7-4fe9-8714-b5d5ec43820f" />
+
+
+6. Setting Kembali Ip Laptop kita di control panel
 
    -Setting sesuaikan dengan ip yang teman-teman pasang tadi, lalu klik Ok
 
    <img width="406" height="459" alt="Screenshot 2026-06-27 095150" src="https://github.com/user-attachments/assets/e1f1ee8b-5a69-4fe7-9a0c-7163791f86f7" />
 
-6. Silahkan tes ping google.com lewat CMD atau Terminal Winbox
+7. Silahkan tes ping google.com lewat CMD atau Terminal Winbox
 
    <img width="545" height="270" alt="Screenshot 2026-06-27 110838" src="https://github.com/user-attachments/assets/d32e1bb8-26fa-4438-b2cb-5e034434cb6a" />
 
