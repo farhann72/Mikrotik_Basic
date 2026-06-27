@@ -106,6 +106,88 @@ Kali ini saya akan membagikan materi "Cara Mengkoneksikan Mikrotik Ke Internet",
 
    Ping lewat Mikrotik
 
+<br>
+
+<h1> Koneksikan Mikrotik ke Internet Static (manual) </h1>
+
+<img width="400" height="323" alt="Screenshot 2026-06-27 103450" src="https://github.com/user-attachments/assets/c55bef48-7677-4009-add6-515b7ad81f3e" />
+
+<br>
+
+Sebelum mencoba topologi di atas, saya harap teman-teman reset konfigurasi mikrotik teman-teman menjadi blank configuration, setelah itu remote kembali mikrotik teman-teman menggunakan WinBox dan ingat kembali catatan tadi yang telah di tulis
+
+<img width="531" height="353" alt="Screenshot 2026-06-27 092110" src="https://github.com/user-attachments/assets/dd2b5b7c-40ee-4616-b484-52c41047d2bd" />
+
+1. Setting ip address
+
+   -Masuk ke Ip >> Address
+
+   -Klik (+) masukan ip yang telah teman-teman catat, ip saya 192.168.0.109/24, lalu pilih interfacenya sesuai topologi yakni ether2, klik apply lalu Ok
+
+   <img width="376" height="372" alt="Screenshot 2026-06-27 104554" src="https://github.com/user-attachments/assets/b3ecc53c-0c26-46f0-af2b-934490af2fd8" />
+
+2. Setting Ip Gateway (UNTUK LAPTOP KITA)
+
+   -Masuk ke Ip >> Address
+
+   -Klik (+) masukan ipnya 192.168.10.1/24, pilih interfacenyanya sesuai topologi yakni ether1, klik apply lalu Ok
+
+   <img width="360" height="373" alt="Screenshot 2026-06-27 104954" src="https://github.com/user-attachments/assets/c07f2249-101c-4d0b-903a-65eed0ea935f" />
+
+3. Setting Ip Gateway (UNTUK MIKROTIK)
+
+   -Klik Ip >> Routes Klik tanda (+)
+
+      -masukan dst address: 0.0.0.0/0
+
+      kenapa harus 0.0.0.0/0? karna ini adalah default route yang berarti semua tujuan dari ip bisa di tuju menggunakan 0.0.0.0/0
+
+      -masukan gatewaynya sesuai catatan yang teman-teman catat, punya saya 192.168.0.1
+
+   <img width="703" height="303" alt="Screenshot 2026-06-27 105610" src="https://github.com/user-attachments/assets/da5148ea-105c-4010-a43f-667112870b7e" />
+
+4. Setting DNS mikrotik teman
+
+   -Klik Ip >> DNS
+
+      -masukan Ip Serversnya 8.8.8.8 dan 8.8.4.4, jika teman-teman hanya bisa masukan 1 ip, bisa klik tanda seperti di foto
+
+   <img width="457" height="248" alt="Screenshot 2026-06-27 110206" src="https://github.com/user-attachments/assets/71d2ca9a-4646-4f8d-8149-276338b45924" />
+
+5. Setting Kembali Ip Laptop kita di control panel
+
+   -Setting sesuaikan dengan ip yang teman-teman pasang tadi, lalu klik Ok
+
+   <img width="406" height="459" alt="Screenshot 2026-06-27 095150" src="https://github.com/user-attachments/assets/e1f1ee8b-5a69-4fe7-9a0c-7163791f86f7" />
+
+6. Silahkan tes ping google.com lewat CMD atau Terminal Winbox
+
+   <img width="545" height="270" alt="Screenshot 2026-06-27 110838" src="https://github.com/user-attachments/assets/d32e1bb8-26fa-4438-b2cb-5e034434cb6a" />
+
+   Tes Ping google.com CMD
+
+   <img width="542" height="118" alt="Screenshot 2026-06-27 111106" src="https://github.com/user-attachments/assets/5f413864-0c80-47c7-ac04-69a632b32365" />
+
+   Tes Ping google.com Terminal WinBox
+
+
+<hr>
+
+Kesimpulan: Ini adalah cara untuk mengkoneksikan mikrotik teman-teman ke Internet, perhatikan kemabli apa saja yang di butuhkan untuk mengkoneksikan ke Internet, seperti Ip Gateway untuk laptop, Ip Gateway untuk mikrotik, DNS, dan ip default route yakni 0.0.0.0/0. Biasakan teman-teman membaca topologi dengan telilti
+
+Akhir Kata
+
+Wassalamualaikum Wr. Wb
+
+
+
+
+
+
+
+
+   
+
 
 
    
