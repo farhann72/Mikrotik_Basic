@@ -102,7 +102,39 @@ Pastikan statusnya bound yakk, biasa seperti sebelum-sebelumnya
 
   Country : Indonesia, Sesuaikan saja dengan negara teman-teman karna kita cinta tanah air maka saya memilih Indonesia
 
-  Wifi Password : Password wifi teman-teman, ga usah di jelasin lah yaa :) ini adalah password wifi teman-teman jika kalian ingin menambahkan keamanan pada wifi teman-teman, fitur hide kalian hapus centangnya dengan cara di klik agar kalian bisa melihat password wifinya
+  Wifi Password : Password wifi teman-teman, ga usah di jelasin lah yaa :) ini adalah password wifi teman-teman jika kalian ingin menambahkan keamanan pada wifi teman-teman. Fitur hide, kalian bisa  hapus centangnya dengan cara di klik pada bagian kotaknya agar kalian bisa melihat password wifi yang kalian ketik
 
-7. 
+7. Setting pada bagian ini
 
+   <img width="603" height="417" alt="Screenshot 2026-07-31 150129" src="https://github.com/user-attachments/assets/77aa6362-b3ea-4265-a1fc-99245fa5ea78" />
+
+-Klik pada bagian automatic, karna kita ingin mengkonfigurasinya dengan dynamic
+
+-pada bagian local host masukan ip AP yang ada di topologi
+
+-centang pada bagian dhcp server, agar quick set dapat membuat sendiri dhcp servernya sendiri untuk mode Acsess Point
+
+-centang pada bagian Nat, agar quick set dapat membuat firewall NAT-nya sendiri.
+
+-klik Apply lalu Ok
+
+8. Cek Wifi teman-teman, lalu koneksikan. Jangan lupa masukan password wifi yang sudah kalian buat
+
+   <img width="379" height="433" alt="Screenshot 2026-07-31 145927" src="https://github.com/user-attachments/assets/243aae84-dd74-4c19-ae20-9049c0e82317" />
+
+9. Teman-teman bisa cek koneksi internetnya dengan cara ping 8.8.8.8 atau google.com pada CMD.
+
+    <img width="445" height="137" alt="Screenshot 2026-07-31 150934" src="https://github.com/user-attachments/assets/2666fa22-a8af-4d93-b6a6-6a93ceebcbc9" />
+
+    <img width="479" height="138" alt="Screenshot 2026-07-31 151002" src="https://github.com/user-attachments/assets/2d833677-e02e-476d-b398-549f1c3af071" />
+
+    di sini saya cek ping ke gateway-nya (penasaran aja sih :v)
+
+10. Dan itu adalah cara menggunakan menggunakan Quick Set mode Home AP Dynamic
+
+# Praktek
+
+
+
+
+   
