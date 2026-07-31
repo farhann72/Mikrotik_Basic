@@ -65,9 +65,11 @@ Quick Set adalah fitur pada MikroTik yang digunakan untuk melakukan konfigurasi 
 
 -Menyediakan NAT, DHCP Server, firewall dasar, dan routing.
 
-# PRAKTEK
+# PRAKTEK HOME AP (Dynamic)
 
 
 <img width="685" height="405" alt="Screenshot 2026-07-31 152418" src="https://github.com/user-attachments/assets/f446a43b-4bec-4b07-b8fd-58c6f71da0f1" />
+
+NOTE: Ip AP adalah ip accsess point/WIFI yang akan kita gunakan nanti untuk konfigurasi
 
 
