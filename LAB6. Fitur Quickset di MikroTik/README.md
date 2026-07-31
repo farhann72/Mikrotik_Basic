@@ -18,3 +18,6 @@ Quick Set adalah fitur pada MikroTik yang digunakan untuk melakukan konfigurasi 
 
 -Menstandarkan konfigurasi antar perangkat atau pengguna.
 
+
+<img width="513" height="329" alt="Screenshot 2026-06-27 112536" src="https://github.com/user-attachments/assets/c9989a52-f13f-485e-864f-2defb838bfbf" />
+
