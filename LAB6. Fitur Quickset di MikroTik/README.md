@@ -21,7 +21,7 @@ Quick Set adalah fitur pada MikroTik yang digunakan untuk melakukan konfigurasi 
 
 # Jenis-Jenis Quick Set
 
-<h1>Home AP</h1>
+<h3>Home AP</h3>
 
 -Digunakan untuk menjadikan MikroTik sebagai access point sekaligus router.
 
@@ -31,24 +31,36 @@ Quick Set adalah fitur pada MikroTik yang digunakan untuk melakukan konfigurasi 
 
 <br>
 
-<h1>Home Mesh</h1>
+<h3>Home Mesh</h3>
 
 -Digunakan untuk menghubungkan beberapa perangkat MikroTik dalam jaringan mesh.
 
 -Membantu memperluas jangkauan Wi-Fi tanpa konfigurasi yang rumit.
 
-<h1> CPE (Client Premises Equipment) </h1>
+<h3> CPE (Client Premises Equipment) </h3>
 
-MikroTik berfungsi sebagai klien yang terhubung ke access point lain.
-Umum digunakan untuk koneksi point-to-point atau menerima internet dari ISP nirkabel.
-WISP AP (Wireless ISP Access Point)
-Digunakan ketika MikroTik menjadi access point bagi banyak klien.
-Cocok untuk penyedia layanan internet berbasis wireless.
-WISP AP Bridge
-Mirip WISP AP, tetapi menggunakan mode bridge sehingga perangkat dalam satu segmen jaringan.
-Bridge
-Menghubungkan beberapa interface menjadi satu jaringan Layer 2.
-Tidak melakukan fungsi routing secara utama.
-Router
-Digunakan ketika MikroTik berfungsi sebagai router utama.
-Menyediakan NAT, DHCP Server, firewall dasar, dan routing.
+-MikroTik berfungsi sebagai klien yang terhubung ke access point lain.
+
+-Umum digunakan untuk koneksi point-to-point atau menerima internet dari ISP nirkabel.
+
+<h3> WISP AP (Wireless ISP Access Point) </h3>
+
+-Digunakan ketika MikroTik menjadi access point bagi banyak klien.
+
+-Cocok untuk penyedia layanan internet berbasis wireless.
+
+<h3> WISP AP Bridge </h3>
+
+-Mirip WISP AP, tetapi menggunakan mode bridge sehingga perangkat dalam satu segmen jaringan.
+
+<h3> Bridge </h3>
+
+-Menghubungkan beberapa interface menjadi satu jaringan Layer 2.
+
+-Tidak melakukan fungsi routing secara utama.
+
+<h3> Router </h3>
+
+-Digunakan ketika MikroTik berfungsi sebagai router utama.
+
+-Menyediakan NAT, DHCP Server, firewall dasar, dan routing.
