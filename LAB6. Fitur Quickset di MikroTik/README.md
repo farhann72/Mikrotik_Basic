@@ -2,7 +2,7 @@
 
 Assalamualikum Wr. Wb
 
-Pada kali ini saya akan membagikan materi quick set
+Pada kali ini saya akan membagikan materi Quick Set,  sebelumnya masuk praktek kita akan teoritis dulu yakk :}
 
 # Apa itu Quick Set?
 
@@ -64,3 +64,9 @@ Quick Set adalah fitur pada MikroTik yang digunakan untuk melakukan konfigurasi 
 -Digunakan ketika MikroTik berfungsi sebagai router utama.
 
 -Menyediakan NAT, DHCP Server, firewall dasar, dan routing.
+
+# PRAKTEK
+
+<img width="645" height="403" alt="Screenshot 2026-07-31 152226" src="https://github.com/user-attachments/assets/544daff7-55a8-49ee-8318-7e9bb6d31f4f" />
+
+
