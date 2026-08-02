@@ -34,3 +34,14 @@ Adalah sebuah layanan yang memberikan akses pada pengguna agar dapat meremote mi
 | FTP | TCP | 21 | Mengirim dan mengambil file dari router. |
 | API | TCP | 8728 | Memungkinkan aplikasi pihak ketiga berkomunikasi dan mengelola RouterOS melalui API. |
 | API-SSL | TCP | 8729 | API dengan koneksi terenkripsi menggunakan SSL/TLS. |
+
+<h3> Cara Merubah Port & Mematikan Service </h3>
+
+1. Pastikan kalian masih di menu **Ip>>Service**
+
+   a. Cara Merubah Port
+
+   <img width="658" height="321" alt="Screenshot 2026-08-02 142413" src="https://github.com/user-attachments/assets/5c8a6ec8-64e0-4c39-844d-4597c52d034e" />
+
+   Klik pada service yang ingin di ganti portnya, sebagai contoh saya pilih service ftp, ubah pada bagian port. Lalu klik Apply + Ok
+
