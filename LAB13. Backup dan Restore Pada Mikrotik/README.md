@@ -12,7 +12,7 @@ Backup  adalah proses menyimpan semua konfigurasi yang sudah di setting pada mik
 
 **Yang harus kalian tau :** File backup ini nanti akan berupa file dengan format **.backup** dan tidak bisa kalian baca di notepad atau software text editting lainnya karna file yang di simpan berupa angka biner yang hanya bisa di baca oleh mesin. Satu lagi backup ini menyimpan seluruh konfigurasi bahkan username dan password itu sendiri.
 
-<h2> Apa itu Restore </h2>
+<h2> Apa itu Restore?? </h2>
 
 Sebaliknya Restore adalah proses menyimpan kembali konfigurasi dari file backup, simpel lah yaa?? :)
 
