@@ -34,9 +34,9 @@ Sebaliknya Restore adalah proses menyimpan kembali konfigurasi dari file backup,
 
 4. Cari file backup tersebut lalu simpan pada komputer teman-teman
 
-Caranya bisa dengan cara drag and drop dan download
+<h3> Caranya bisa dengan cara drag and drop dan download </h3>
 
-  a. drag and drop
+  **a. drag and drop**
 
   -kecilkan tab winbox teman-teman
 
@@ -46,7 +46,7 @@ Caranya bisa dengan cara drag and drop dan download
 
   <img width="1130" height="628" alt="Screenshot 2026-08-02 152718" src="https://github.com/user-attachments/assets/7e3fd3a4-075c-45d7-ac09-afe6c15b6c6b" />
 
-  b. download
+  **b. download**
 
   -klik kanan pada bagian file backupnya
 
