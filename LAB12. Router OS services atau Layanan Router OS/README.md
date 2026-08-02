@@ -4,11 +4,11 @@ Assalamualaikum Wr.Wb
 
 Teman-teman aneh ga sih ko bisa meremote mikrotik dengan gampang dan mudah? pernah ga sih ke pikiran kalo ada orang asing yang bisa masuk sembarangan?
 
-# Router OS Services / Layanan Router Os / Ip Services
+<h2> Router OS Services / Layanan Router Os / Ip Services </h2>
 
 Adalah sebuah layanan yang memberikan akses pada pengguna agar dapat meremote mikrotik dengan mudah, pada dasarnya fitur ini memberi pengguna beberapa opsi untuk dapat meremote mikrotik dari berbagai service, tentu saja setiap service memiiki port default masing-masing. Terus keamanannya bagaimana? di fitur ini admin bisa merubah port dan disable/mematikan service yang kita inginkan untuk alasan security atau keamanan, jika teman-teman mau mikrotik kalian hanya bisa di remote oleh 1 service bisa kok, kalian tinggal matikan semua service yang menyala lalu tinggalkan service yang kalian inginkan agar tetap menyala.
 
-# Port Default Setiap Service
+<h2> Port Default Setiap Service </h2>
 
 1. Remote mikrotik teman-teman seperti biasa
 
@@ -22,7 +22,7 @@ Adalah sebuah layanan yang memberikan akses pada pengguna agar dapat meremote mi
 
 4.  Fungsi dari setiap service
 
-   ## RouterOS Services
+   RouterOS Services
 
 | Service | Protokol | Port Default | Fungsi |
 |---------|----------|--------------|--------|
