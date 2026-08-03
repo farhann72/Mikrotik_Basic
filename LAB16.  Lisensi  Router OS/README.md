@@ -33,7 +33,11 @@ Teman-teman perhatikan saja tabel di atas
     Karakteristik: Berbayar, namun biasanya sudah terpasang langsung pada perangkat MikroTik tipe CPE (Customer Premises Equipment) atau perangkat penerima. Lisensi ini tidak dijual secara terpisah untuk instalasi PC.
 
     Akses & Batasan:
-       Wireless AP: Tidak mendukung mode Access Point standar (tidak bisa memancarkan Wi-Fi ke banyak perangkat sekaligus). Hanya mendukung mode Wireless Client/Bridge (menerima sinyal) atau Point-to-Point terbatas.
-       Kapasitas: Mendukung hingga 200 pengguna simultan untuk jalur tunnel PPPoE, PPTP, L2TP, dan OVPN.
-       HotSpot: Dibatasi hanya 1 pengguna aktif.
-       Fitur Bebas: EoIP, VLAN, Routing (RIP, OSPF, BGP) sudah bersifat unlimited.
+
+   Wireless AP: Tidak mendukung mode Access Point standar (tidak bisa memancarkan Wi-Fi ke banyak perangkat sekaligus). Hanya mendukung mode Wireless Client/Bridge (menerima sinyal) atau Point-to-Point terbatas.
+
+   Kapasitas: Mendukung hingga 200 pengguna simultan untuk jalur tunnel PPPoE, PPTP, L2TP, dan OVPN.
+
+   HotSpot: Dibatasi hanya 1 pengguna aktif.
+
+    Fitur Bebas: EoIP, VLAN, Routing (RIP, OSPF, BGP) sudah bersifat unlimited.
