@@ -113,9 +113,13 @@ Langsung praktik lahh yaa
 # Tips Backup & Export
 
 • Lakukan backup dan export secara berkala, baik secara manual atau otomatis (scheduler)
+
 • Backup hanya direkomendasikan untuk router yang sama
+
 • Untuk router dengan type yang sama atau type yang berbeda, silakan gunakan export
+
 • Simpan file backup atau export di luar router (misal laptop)
+
 • Bisa juga file backup dikirim via email
 
 
